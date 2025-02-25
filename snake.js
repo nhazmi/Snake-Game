@@ -164,3 +164,7 @@ function displayGameOver(){
 resetButton.onclick = function(){
     location.reload()
 }
+
+document.addEventListener('keydown', function(){
+	location.reload()
+}

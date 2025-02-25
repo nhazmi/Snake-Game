@@ -165,6 +165,9 @@ resetButton.onclick = function(){
     location.reload()
 }
 
-document.addEventListener('keydown', function(){
+document.addEventListener('keydown', function(event){
+    if(event.key === 'Enter'){
 	location.reload()
+    }
+    else return
 }
